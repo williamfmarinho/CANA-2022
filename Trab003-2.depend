@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1670436992 source:c:\users\william\documents\trab003-2\main.cpp
+	<iostream>
+	<limits>
+	"funcoes.h"
+
+1670348357 c:\users\william\documents\trab003-2\funcoes.h
+
+1670356950 source:c:\users\william\documents\trab003-2\funcoes.cpp
+	"funcoes.h"
+	<iostream>
+
+1670436992 source:c:\users\william\documents\trab003-2\funcoes_fib.cpp
+	"funcoes.h"
+	<iostream>
+	<cmath>
+	<math.h>
+
+1670343508 source:c:\users\william\documents\trab003-2\cavalo.cpp
+	<bits/stdc++.h>
+	"funcoes.h"
+	<iostream>
+	<windows.h>
+	<conio.h>
+
+1669758100 source:c:\users\william\documents\trab003-2\pendrive.cpp
+	"funcoes.h"
+	<iostream>
+
+1670363562 source:c:\users\william\documents\trab003-2\pesquisa.cpp
+	"funcoes.h"
+	<iostream>
+
