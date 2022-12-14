@@ -13,8 +13,7 @@ int main(){
 
 
 
-    int n_fibonacci = 12; //mudanca no codeblocks
-    // nova branch
+    int n_fibonacci = 12; // valor de fibonacci pra encontrar
     Fibonacci_top_down_auxiliar();
     //cout << "----------Fibonacci 2n----------" << endl;
     //cout << "Fibonacci: "<< Fibonacci_2n(n_fibonacci) << endl; //!valor max: 46
@@ -51,7 +50,7 @@ int main(){
 
 
 
-    int elemento = 40;
+    int elemento = 40; // elemento a ser encontrado
     //cout << endl;
     //cout << endl;
     //cout << "Indice Forca Bruta: " << pesquisar_forca_bruta(lista, tamanho, elemento) << endl;
