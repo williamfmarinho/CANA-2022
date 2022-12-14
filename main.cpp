@@ -13,7 +13,7 @@ int main(){
 
 
 
-    int n_fibonacci = 12; //Commit no vs code, edit no github
+    int n_fibonacci = 12; //Ultima mudanca no vs code
     Fibonacci_top_down_auxiliar();
     //cout << "----------Fibonacci 2n----------" << endl;
     //cout << "Fibonacci: "<< Fibonacci_2n(n_fibonacci) << endl; //!valor max: 46
@@ -42,7 +42,7 @@ int main(){
     //cout << endl;
 
 
-    cavalo();
+    //cavalo();
 
 
     //cout << "Numero de videos: "<< quantidade_videos << endl;
@@ -53,7 +53,7 @@ int main(){
     int elemento = 40;
     cout << endl;
     cout << endl;
-    //cout << "Indice Forca Bruta: " << pesquisar_forca_bruta(lista, tamanho, elemento) << endl;
+    cout << "Indice Forca Bruta: " << pesquisar_forca_bruta(lista, tamanho, elemento) << endl;
     //cout << "Indice Divisao e Conquista: " << pesquisar_divisao_conquista(lista, 0, tamanho-1, elemento) << endl;
     //cout << "indice tentativa e erro: " << pesquisar_tentativa_erro (lista, tamanho-1, elemento) << endl;
 
