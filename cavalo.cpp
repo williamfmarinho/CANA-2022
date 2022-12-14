@@ -1,7 +1,7 @@
 
 #include "funcoes.h"
 #include <iostream>
-//#include <bits/stdc++.h>
+#include <bits/stdc++.h>
 #include <windows.h>
 #include <conio.h>
 #define N 8
@@ -29,7 +29,7 @@ int Posicao_Valida(int x, int y, int tabuleiro[N][N]){
 void Mostrar_Tabuleiro(int tabuleiro[N][N]){
     for (int x = 0; x < N; x++) {
         for (int y = 0; y < N; y++)
-            //cout << " " << setw(2) << tabuleiro[x][y] << " ";
+            cout << " " << setw(2) << tabuleiro[x][y] << " ";
         cout << endl;
     }
 }
@@ -70,23 +70,23 @@ int cavalgar(int x, int y, int passos, int tabuleiro[N][N], int movimento_x[8], 
     for (i = 0; i < 8; i++) {
         proximo_x = x + movimento_x[i];
         proximo_y = y + movimento_y[i];
-        limpar_tela();
-        cout << "Verificando se a posicao " << proximo_x <<", " << proximo_y << " Esta correta        "<< endl;
-        Mostrar_Tabuleiro(tabuleiro);
-        Sleep(2000);
-        limpar_tela();
+        //limpar_tela();
+        //cout << "Verificando se a posicao " << proximo_x <<", " << proximo_y << " Esta correta        "<< endl;
+        //Mostrar_Tabuleiro(tabuleiro);
+        //Sleep(2000);
+        //limpar_tela();
         if (Posicao_Valida(proximo_x, proximo_y, tabuleiro)) {
             tabuleiro[proximo_x][proximo_y] = passos;
-            limpar_tela();
-            cout << "Mudou o valor de tabuleiro["<<proximo_x<<"]["<<proximo_y<<"] para " << passos<< endl;
-            Mostrar_Tabuleiro(tabuleiro);
-            Sleep(2000);
+            //limpar_tela();
+            //cout << "Mudou o valor de tabuleiro["<<proximo_x<<"]["<<proximo_y<<"] para " << passos<< endl;
+            //Mostrar_Tabuleiro(tabuleiro);
+            //Sleep(2000);
             if (cavalgar(proximo_x, proximo_y, passos + 1, tabuleiro, movimento_x, movimento_y) == 1)
                 return 1;
             else{
-                cout << "Falha, retornando o valor de tabuleiro["<<proximo_x<<"]["<<proximo_y<<"] p/ 0" << endl;
-                limpar_tela();
-                Sleep(2000);
+                //cout << "Falha, retornando o valor de tabuleiro["<<proximo_x<<"]["<<proximo_y<<"] p/ 0" << endl;
+                //limpar_tela();
+                //Sleep(2000);
                 tabuleiro[proximo_x][proximo_y] = 0;
 
             }

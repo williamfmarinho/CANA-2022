@@ -5,7 +5,7 @@ using namespace std;
 
 
 int main(){
-    int lista[] = {500, 40, 30, 650, 14, 70, 90, 1313, 100, 1, 8000, 13};
+    int lista[] = {500, 40, 30, 650, 14, 70, 90, 1313, 100, 1, 8000, 1412, 325, 13};
     int tamanho = (sizeof(lista) / sizeof(lista[0]));
     int videos[] = {100, 350, 500, 550, 750, 948, 1460, 1520, 1600, 1767, 1842, 1945, 1999, 2000, 2500, 4500, 6540};
     int quantidade_videos = (sizeof(videos) / sizeof(videos[0]));
@@ -43,7 +43,7 @@ int main(){
     //cout << endl;
 
 
-    //cavalo();
+    cavalo();
 
 
     //cout << "Numero de videos: "<< quantidade_videos << endl;
@@ -52,9 +52,9 @@ int main(){
 
 
     int elemento = 40;
-    cout << endl;
-    cout << endl;
-    cout << "Indice Forca Bruta: " << pesquisar_forca_bruta(lista, tamanho, elemento) << endl;
+    //cout << endl;
+    //cout << endl;
+    //cout << "Indice Forca Bruta: " << pesquisar_forca_bruta(lista, tamanho, elemento) << endl;
     //cout << "Indice Divisao e Conquista: " << pesquisar_divisao_conquista(lista, 0, tamanho-1, elemento) << endl;
     //cout << "indice tentativa e erro: " << pesquisar_tentativa_erro (lista, tamanho-1, elemento) << endl;
 

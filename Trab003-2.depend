@@ -31,3 +31,34 @@
 	"funcoes.h"
 	<iostream>
 
+1671052622 source:c:\users\william\documents\repositorios vs code\cana-2022\cavalo.cpp
+	"funcoes.h"
+	<iostream>
+	<windows.h>
+	<conio.h>
+
+1671052622 c:\users\william\documents\repositorios vs code\cana-2022\funcoes.h
+
+1671052622 source:c:\users\william\documents\repositorios vs code\cana-2022\funcoes.cpp
+	"funcoes.h"
+	<iostream>
+
+1671052622 source:c:\users\william\documents\repositorios vs code\cana-2022\funcoes_fib.cpp
+	"funcoes.h"
+	<iostream>
+	<cmath>
+	<math.h>
+
+1671052622 source:c:\users\william\documents\repositorios vs code\cana-2022\pendrive.cpp
+	"funcoes.h"
+	<iostream>
+
+1671052622 source:c:\users\william\documents\repositorios vs code\cana-2022\pesquisa.cpp
+	"funcoes.h"
+	<iostream>
+
+1671057733 source:c:\users\william\documents\repositorios vs code\cana-2022\main.cpp
+	<iostream>
+	<limits>
+	"funcoes.h"
+
