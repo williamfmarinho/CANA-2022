@@ -13,7 +13,7 @@ int main(){
 
 
 
-    int n_fibonacci = 12; //Ultima mudanca no vs code
+    int n_fibonacci = 12; //mudanca no codeblocks
     Fibonacci_top_down_auxiliar();
     //cout << "----------Fibonacci 2n----------" << endl;
     //cout << "Fibonacci: "<< Fibonacci_2n(n_fibonacci) << endl; //!valor max: 46
