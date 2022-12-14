@@ -5,6 +5,8 @@
 
 void Mostrar_Lista(int *v, int n);
 
+void nova_funcao_git(int n);
+
 void Fibonacci_top_down_auxiliar();
 int Fibonacci_top_down(int n);
 int Fibonacci_bottom_up(int n);
