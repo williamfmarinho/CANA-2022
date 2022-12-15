@@ -7,7 +7,7 @@ using namespace std;
 int main(){
     int lista[] = {500, 40, 30, 650, 14, 70, 90, 1313, 100, 1, 8000, 1412, 325, 13};
     int tamanho = (sizeof(lista) / sizeof(lista[0]));
-    int videos[] = {100, 350, 500, 550, 750, 948, 1460, 1520, 1600, 1767, 1842, 1945, 1999, 2000, 2500, 4500, 6540};
+    int videos[] = {100, 350, 500, 550, 750, 948, 1460, 1520, 1600, 1767, 1842, 1945, 1999, 2000, 2500, 6540};
     int quantidade_videos = (sizeof(videos) / sizeof(videos[0]));
     int tamanho_pendrive = 8000;
 
